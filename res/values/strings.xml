@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ping Sut</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="s_game">Pilih aksi:</string>
+    <string name="s_result_title">Hasil PingSut</string>
+    <string name="s_vs">VS</string>
+    <string name="s_kamu">Kamu</string>
+    <string name="s_android">Android</string>
+    <string name="s_hasil">[hasil]</string>
+    <string name="s_about">Tentang PingSut</string>
+</resources>

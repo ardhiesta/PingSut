@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:text="@string/s_game"
+        tools:context=".PingSutCore" />
+
+    <Button
+        android:id="@+id/bJempol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="25dp"
+        android:drawableBottom="@drawable/jempol"
+        />
+
+    <Button
+        android:id="@+id/bTelunjuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bJempol"
+        android:layout_centerHorizontal="true"
+        android:drawableBottom="@drawable/telunjuk" />
+
+    <Button
+        android:id="@+id/bKelingking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/bTelunjuk"
+        android:drawableBottom="@drawable/kelingking" />
+
+    <Button
+        android:id="@+id/bAbout"
+        android:drawableLeft="@drawable/about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/s_about"
+        />
+
+</RelativeLayout>
